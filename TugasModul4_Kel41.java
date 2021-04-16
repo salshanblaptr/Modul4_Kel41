@@ -66,6 +66,21 @@ public class TugasModul4_Kel41 {
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
                 case 2 :
+                    static String[] Jam3 = {"1. 12.10", "2. 15.30", "3. 17.15"};
+                    static int jam3;
+                System.out.print("RECORDS OF COMRADES\n");
+                            System.out.print("Tayang Pukul: \n");
+                            for(int i=0;i<Jam3.length;i++) {
+                                System.out.println(Jam3[i]);
+                            }
+                            System.out.println("Silakan Pilih Jam Yang Anda Inginkan ");
+                            jam3=scan.nextInt();
+                            System.out.println("Kamu Memilih Menonton Jam "+Jam3[jam3-1].substring(3,Jam3[jam3-1].length()));
+                            System.out.println("Harga Tiket : Rp. 30.000\n");
+                            System.out.println("Terima Kasih Atas Pembelian Anda, \nKamu Memilih Menonton Film RECORDS OF COMRADES Pukul "+Jam3[jam3-1].substring(3,Jam3[jam3-1].length()));
+                            System.out.println("Jangan Sampai Terlambat! ");
+                            System.exit(0);
+			                    break;
 
                 case 3 :
 
